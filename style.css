@@ -42,3 +42,38 @@ header nav li a{
     color: var(--main-color);
 }
 
+.container{
+    width: 90%;
+    height: calc(100vh - 73.56px);
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container p{
+    color:#4e4e4e;
+}
+
+.container h2{
+    margin: 10px 0px;
+    font-size: 2.7rem;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+}
+
+.container section{
+    line-height: 1.7;
+    color: #4e4e4e;
+    margin-bottom: 20px;
+    letter-spacing: 1.1px;
+}
+
+.container .link a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #4e4e4e;
+    border: 1px solid #4e4e4e;
+    padding: 10px 12px;
+    display: inline-block;
+}
